@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(260deg, #410496 0%, #be58dd 100%);
+}
+.nav-bg{
+    width: 100%;
+    background-image: linear-gradient(260deg, #410496 0%, #be58dd 100%);
+}
+.logo{
+    margin-top: 10px;
+    color:rgb(55, 171, 204);
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    
+}
+.logo:hover{
+    text-decoration: none;
+}
+.logo-container{
+    margin-right: 10px;
+    width:1000px
+}
+#navbar{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.nav-links:hover{
+    color:rgb(55, 171, 204);
+    text-decoration: none;
+}
+.main-nav li{
+    width:450px;
+    align-content: flex-start;
+    float: right;
+    margin-right:10px;
+}
+
+/*carousel */
+.carousel-header{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.line{
+    margin-left: 45%;
+    background-color: rgb(55, 171, 204);
+    width:100px;
+    height: 1px;
+}
+.carousel-txt{
+    text-align: center;
+    color: white;
+}
+.carousel-btn{
+    color: rgb(55, 171, 204);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid;
+}
+.carousel-btn:hover{
+    color:white;
+    text-decoration: none;
+}
+
+/* carousel Ends here*/
+
+
+/* About Us Page Starts here */
+.about-img-container{grid-area: aboutImg;}
+.about-container-txt{
+    grid-area: aboutTxt;
+    margin-left: 80px;}
+.about-container{
+    display: grid;
+    grid-template-areas: 'aboutImg aboutImg aboutTxt aboutTxt'
+                         'aboutImg aboutImg aboutTxt aboutTxt';
+    padding-top: 50px;
+}
+
+.aboutImgIcon{
+    font-size: 200px;
+    color: rgb(55, 171, 204);
+}
+.white-bg{
+    background-color: white;
+}
+.aboutHeading{
+    font-size: 22px;
+}
+.about-txt{
+    font-size: 15px;
+}
+.about-btn{
+    color: rgb(55, 171, 204);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid;
+}
+.about-btn:hover{
+    color:blue;
+    text-decoration: none;
+}
+
+/* Expertise Page Starts Here */
+
+.expert-col-1{grid-area: expert-col-1;}
+.expert-col-2{grid-area: expert-col-2;}
+.expert-col-3{grid-area: expert-col-3;}
+.expertise-container{
+    display: grid;
+    grid-template-areas: 'expert-col-1 expert-col-2 expert-col-3'
+                         'expert-col-1 expert-col-2 expert-col-3';
+    grid-gap: 10px;
+    
+    padding-top: 50px;
+}
+
+.expertise-icon{
+    color:rgb(55, 171, 204);
+    font-size:33px;
+}
+.expertise-header{
+    color:black;
+    font-size: 15px;
+}
+.expertise-p{
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+    
+}
+.line1{
+    background-color: rgb(55, 171, 204);
+    width:100px;
+    height: 1px;
+}
+
+/* Team page*/
+#Teams{
+    margin-top: 50px;
+}
+.team-p{
+    font-size: 12px;
+    color: rgba(0,0,0,0.7);
+}
+
+.team1{grid-area: team1;
+border: 1px solid black;}
+.team2{grid-area: team2;
+border: 1px solid black;}
+.team3{grid-area: team3;
+border: 1px solid black;}
+.team4{grid-area: team4;
+border: 1px solid black;}
+.team-container{
+    display: grid;
+    grid-template-areas: 'team1 team2 team3 team4';
+    grid-gap: 5px;
+    padding-top: 50px;
+}
+
+
+/* Our Work Page */
+
+.workobject1{
+    grid-area: workobject1;
+}
+.workobject2{
+    grid-area: workobject2;
+}
+.work-container{
+    display: grid;
+    grid-template-areas: 'workobject1 workobject1 workobject2 workobject2';
+}
+.seeAllWork{
+    color:black;
+    text-decoration: none;
+    opacity: 0.7
+    
+}
+.seeAllWork:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.Our-Work-Item1{grid-area: Our-Work-Item1}
+.Our-Work-Item2{grid-area: Our-Work-Item2}
+.Our-Work-Item3{grid-area: Our-Work-Item3}
+.Our-Work-Item4{grid-area: Our-Work-Item4}
+.Our-Work-Item5{grid-area: Our-Work-Item5}
+.Our-Work-Item6{grid-area: Our-Work-Item6}
+.Our-Work-Container{
+    display: grid;
+    grid-template-areas: 'Our-Work-Item1 Our-Work-Item2 Our-Work-Item3 Our-Work-Item4 Our-Work-Item5 Our-Work-Item6'
+                         'Our-Work-Item1 Our-Work-Item2 Our-Work-Item3 Our-Work-Item4 Our-Work-Item5 Our-Work-Item6';
+    grid-gap: 0px
+}
+
+/* testimonials Page*/
+
+.test-1{grid-area: test1;margin-top: 20px;border-right: 1px solid gray;}
+.test-2{grid-area: test2;margin-top: 20px;border-right: 1px solid gray;}
+.test-3{grid-area: test3;margin-top: 20px;}
+.testimonial-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-areas: 'test1 test2 test3'
+                         'test1 test2 test3'
+                         'test1 test2 test3';
+}
+#pplsay{
+    background-color: white;
+    margin-top: 20px;
+}
+.fadded-black{
+    color: rgba(0,0,0, 0.5);
+}
+.blue-quetation-mark{
+    color:rgb(55, 171, 204);
+}
+
+.
+/* Mobile Responsive navbar Settings*/
+/* Hide the link that should open and close the topnav on small screens */
+.icon {
+    color:aqua;
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .nav-links{display: none;}
+  .main-nav a.icon {
+    float: right;
+    display:block;
+    position: fixed;
+      margin-left:55%;
+  }
+    .main-nav{  
+    flex-direction:column;
+    }
+}
+
+/* contact page */
+.double1{grid-area: double1;}
+.double2{grid-area: double2;}
+.double-container{
+    display: grid;
+    grid-template-areas: 'double1 double2';
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top:100px;
+}
+
+#contact{
+    background-image: linear-gradient(360deg, #410496 0%, rgb(55, 171, 204) 100%);
+}
+.contact-header{
+    font-size: 20px;
+}
+.text-input{
+    width:400px;
+    height: 35px;
+    border-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.textarea{
+    width:400px;
+    height: 130px;
+    margin-top: 10px;
+    border-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+.contact-btn{
+    color: rgb(55, 171, 204);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 2px solid;
+}
+.contact-btn:hover{
+    text-decoration: none;
+    
+}
+
+/* Footer */
+
+#footer{
+    background-color:white;
+}
+.footer-column-1{
+    grid-area: column-1-footer;
+}.footer-column-2{
+    grid-area: column-2-footer;
+}.footer-column-3{
+    grid-area: column-3-footer;
+}
+.footer-container{
+    display: grid;
+    grid-template-areas: 'column-1-footer column-2-footer column-3-footer'
+                         'column-1-footer column-2-footer column-3-footer';
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 70px;
+}
+.footer-h{
+    color:rgb(55, 171, 204);
+}
+.footer-info{
+    font-size: 13px;
+}
+.input-footer{
+    width:220px;
+    margin-left:10px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: skyblue;
+}
+.send-btn-footer{
+    color: rgb(55, 171, 204);
+    text-decoration: none;
+    background-color: lightgray;
+    padding-top: 7px;
+    padding-bottom:7px;
+    border-radius: 5px;
+}
+.send-btn-footer:hover{
+    text-decoration: none;
+}
+.s-btn-holder{
+    margin-left: 20px;
+    width: 300px;
+}
+.social-media-btn{
+    color:rgb(55, 171, 204);
+    border: 1px solid rgb(55, 171, 204);
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    position: relative; 
+    transition: transform 0.8s ease-in-out;
+}
+.social-media-btn-sm{
+    color:rgb(55, 171, 204);
+    border: 1px solid rgb(55, 171, 204);
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+}
+.social-media-btn .social-media-btn-sm:hover{
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.footer-contaienr-2{
+    margin-right: 20%;
+    margin-left 20%;
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .main-nav.responsive {position: relative;}
+  .main-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+  .main-nav.responsive .nav-links {
+    float:none;
+    display:flex;
+    text-align: center;
+  }
+}
+
+/* For the About Section*/
+@media screen and (max-width: 600px) {
+    body{
+        max-width:inherit;
+    }
+    .about-img-container{grid-area: aboutImg;}
+    .about-container-txt{
+        grid-area: aboutTxt;
+        margin-top: 20px;}
+    .about-container{
+        display: grid;
+        grid-template-areas: 'aboutImg aboutImg'
+                             'aboutTxt aboutTxt';
+        padding-top: 50px;
+}
+    
+.expert-col-1{grid-area: expert-col-1;}
+.expert-col-2{grid-area: expert-col-2;}
+.expert-col-3{grid-area: expert-col-3;}
+.expertise-container{
+    display: grid;
+    grid-template-areas: 'expert-col-1'
+                         'expert-col-1'
+                         'expert-col-2'
+                         'expert-col-2'
+                         'expert-col-3'
+                         'expert-col-3';
+    grid-gap: 10px;
+    
+    padding-top: 50px;
+}
+    .work-container{
+    display: grid;
+    grid-template-areas: 'workobject1 workobject1'
+                         'workobject2 workobject2';
+}
+    .team-container{
+    display: grid;
+    grid-template-areas: 'team1 team2'
+                         'team3 team4';
+    grid-gap: 5px;
+    padding-top: 50px;
+}
+    .Our-Work-Container{
+    display: grid;
+    grid-template-areas: 'Our-Work-Item1'
+                         'Our-Work-Item1' 
+                         'Our-Work-Item2'
+                         'Our-Work-Item2'
+                         'Our-Work-Item3'
+                         'Our-Work-Item3'
+                         'Our-Work-Item4'
+                         'Our-Work-Item4' 
+                         'Our-Work-Item5' 
+                         'Our-Work-Item5' 
+                         'Our-Work-Item6'
+                         'Our-Work-Item6';
+}
+    .testimonial-container{
+    display: grid;
+    grid-template-areas: 'test1 test2 test3'
+                         'test1 test2 test3'
+                         'test1 test2 test3';
+        
+}
+    
+    
+  .double-container{
+    display: grid;
+    grid-template-areas: 'double1'
+                         'double2';
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
